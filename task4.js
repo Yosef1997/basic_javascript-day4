@@ -1,5 +1,5 @@
 const fetch = require('node-fetch')
-const getData = async() =>{
+const getData = () =>{
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(data => data.json())
     .then((data) => {
